@@ -1,1 +1,95 @@
 /* Inserta tu CSS aqui */
+
+body{
+	font-family: "Oswald";
+}
+
+footer{
+	background-image:url("../images/tile2.png");
+	background-size:100%;
+	background-repeat: repeat;
+}
+nav>ul{
+	display: inline-block;
+	text-decoration: none;
+}
+nav>li{
+	font-color: black;
+	font-family: "Oswald";
+	display: inline-block;
+}
+a>.nav{
+	font-family: "Oswald";
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	margin-right: 2%;
+	font-size: 12px;
+	margin-bottom: 2%;
+}
+h2{
+	color: #AC0C9B;
+	text-align: center;
+	margin-top: 6%;
+	margin-bottom: 2%;
+}
+/*HEADER*/
+header{
+	background-image:url("../images/background.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.Header{
+	color: white;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+h4{
+	margin-bottom:80%;
+}
+h1{
+	margin-bottom: 20%;
+}
+.Logo{
+	margin-top: 3%;
+	width: 5%;
+	height: 5%;
+}
+/*SECTION*/
+/*About Me*/
+p{
+	font-family: sans-serif;
+	padding-right: 20%;
+	padding-top: 3%;
+}
+#AboutMe{
+	margin-left: -55%;
+}
+.img-profile{
+	width: 68%;
+	height: 68%;
+	border: 1px solid gray;
+	padding: 4px;
+	margin: 33% 0% 0% 30%;
+}
+
+/*My Favorite Things*/
+h5{
+	color: #AC0C9B;
+}
+.img-favorite{
+	border-radius: 100%;
+	border:#AC0C9B solid 1px;
+	padding: 2px;
+	width: 15%;
+	height: 15%;
+	margin:2% 2% 5% 0%;
+}
+/*FOOTER*/
+.img-footer{
+	width: 13%;
+	height: 13%;
+	border-radius: 100%;
+	margin-right: 2%;
+	margin-bottom: 4%;
+}
